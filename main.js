@@ -76,4 +76,44 @@ console.log(pe11.nextElementSibling);
 let pe12=document.getElementById("parent");
 console.log(pe12.parentElement);
 
+//individual property
 
+// let p2=document.getElementById("second");
+// console.log(p2);
+// p2.style.color="white"
+// p2.style.backgroundColor="black"
+
+// //css text
+//  let p3=document.getElementById("second");
+//  console.log(p3);
+//  p3.style.cssText="background-color:blue ; color:white";
+
+ //buttonclick
+
+ function buttonclick(){
+     console.log("clicked");
+ }
+
+ function buttonclick(){
+     let p4=document.getElementById("second");
+     p4.classList.add("black");
+     console.log("clicked");
+ }
+
+ function buttonclick(){
+    let p5=document.getElementById("second");
+    p5.classList.remove("black");
+    console.log("clicked");
+}
+
+//inner text 
+let p6=document.getElementById("second");
+console.log(p6.innerText);
+
+//text content
+let p7=document.getElementById("second");
+console.log(p7.textContent);
+
+//inner html
+let p8=document.getElementById("second");
+console.log(p8.innerHTML);
