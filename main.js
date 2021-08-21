@@ -38,3 +38,42 @@ console.log(des3);
 
 let des4=document.querySelectorAll(".second");
 console.log(des4[0]);
+
+//
+let pe1=document.getElementById("parent");
+console.log(pe1);
+
+let pe2=document.getElementById("parent");
+console.log(pe2.children);
+
+let pe3=document.getElementById("parent");
+console.log(pe3.childNodes);
+
+let pe4=document.getElementById("parent");
+console.log(pe4.firstChild);
+
+let pe5=document.getElementById("parent");
+console.log(pe5.firstElementChild);
+
+let pe6=document.getElementById("parent");
+console.log(pe6.lastChild);
+
+let pe7=document.getElementById("parent");
+console.log(pe7.lastElementChild);
+
+let pe8=document.getElementById("parent");
+console.log(pe8.previousSibling);
+
+let pe9=document.getElementById("parent");
+console.log(pe9.nextSibling);
+
+let pe10=document.getElementById("parent");
+console.log(pe10.previousElementSibling);
+
+let pe11=document.getElementById("parent");
+console.log(pe11.nextElementSibling);
+
+let pe12=document.getElementById("parent");
+console.log(pe12.parentElement);
+
+
